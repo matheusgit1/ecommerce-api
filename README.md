@@ -33,7 +33,7 @@
 use o "accessToken" retornado nos campos de login da aplicação para trabalhar nas rotas logadas.
 use "Bearer [accessToken]" nos headers de cada requisição
 
-### update user
+### atualizar dados de um usuario
 ```http
   PUT /api/auth/:id
 ```
@@ -48,7 +48,7 @@ utilize o id de usuario para localizar um usario e atualizar suas informações.
 #### requisição/resposta
 ![auth 3](https://github.com/matheusgit1/ecommerce-api/blob/main/api/auth/update_user.PNG)
 
-### get user
+### recuperar dados de um usuario
 ```http
   GET /api/auth/:id
 ```
